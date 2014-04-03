@@ -1,0 +1,18 @@
+//
+//  KEAppDelegate.m
+//  ProvisioningApp
+//
+//  Created by Kemal Enver on 03/04/2014.
+//  Copyright (c) 2014 Kemal Enver. All rights reserved.
+//
+
+#import "KEAppDelegate.h"
+
+@implementation KEAppDelegate
+
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+    // Insert code here to initialize your application
+}
+
+@end
