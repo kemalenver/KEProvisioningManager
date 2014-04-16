@@ -7,12 +7,18 @@
 //
 
 #import "KEAppDelegate.h"
+#import "KEMainWindowController.h"
 
 @implementation KEAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    
+    self.mainWindowController = [[KEMainWindowController alloc] initWithWindowNibName: @"KEMainWindowController"];
+    
+    [self.mainWindowController showWindow: self];
 }
+
 
 @end

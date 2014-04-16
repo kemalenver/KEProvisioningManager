@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A20C39B18F52FE6000718C4 /* KEUSBDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A20C39A18F52FE6000718C4 /* KEUSBDevices.m */; };
+		0A52600818EEB0010083F2FB /* KEProvProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52600718EEB0010083F2FB /* KEProvProfile.m */; };
+		0A52600D18EF02AA0083F2FB /* KEHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52600C18EF02AA0083F2FB /* KEHelpers.m */; };
 		0A7F3DF618EDB0E6002771D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7F3DF518EDB0E6002771D2 /* Cocoa.framework */; };
 		0A7F3E0018EDB0E6002771D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A7F3DFE18EDB0E6002771D2 /* InfoPlist.strings */; };
 		0A7F3E0218EDB0E6002771D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F3E0118EDB0E6002771D2 /* main.m */; };
@@ -18,6 +21,10 @@
 		0A7F3E1618EDB0E6002771D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7F3DF518EDB0E6002771D2 /* Cocoa.framework */; };
 		0A7F3E1E18EDB0E6002771D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A7F3E1C18EDB0E6002771D2 /* InfoPlist.strings */; };
 		0A7F3E2018EDB0E6002771D2 /* ProvisioningAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F3E1F18EDB0E6002771D2 /* ProvisioningAppTests.m */; };
+		0A7F3E2C18EDB48C002771D2 /* KEMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7F3E2A18EDB48C002771D2 /* KEMainWindowController.m */; };
+		0A7F3E2D18EDB48C002771D2 /* KEMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7F3E2B18EDB48C002771D2 /* KEMainWindowController.xib */; };
+		0A9AD74918F29691009DB5E8 /* ToolBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9AD74818F29691009DB5E8 /* ToolBar.xcassets */; };
+		0A9AD75718F43302009DB5E8 /* KEIncludedDevicesDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9AD75618F43302009DB5E8 /* KEIncludedDevicesDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A7F3DF218EDB0E6002771D2 /* ProvisioningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProvisioningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A20C39818F52E9B000718C4 /* Provisioning Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Provisioning Manager.entitlements"; sourceTree = "<group>"; };
+		0A20C39918F52FE6000718C4 /* KEUSBDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEUSBDevices.h; sourceTree = "<group>"; };
+		0A20C39A18F52FE6000718C4 /* KEUSBDevices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KEUSBDevices.m; sourceTree = "<group>"; };
+		0A52600618EEB0010083F2FB /* KEProvProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEProvProfile.h; sourceTree = "<group>"; };
+		0A52600718EEB0010083F2FB /* KEProvProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KEProvProfile.m; sourceTree = "<group>"; };
+		0A52600B18EF02AA0083F2FB /* KEHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEHelpers.h; sourceTree = "<group>"; };
+		0A52600C18EF02AA0083F2FB /* KEHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KEHelpers.m; sourceTree = "<group>"; };
+		0A7F3DF218EDB0E6002771D2 /* Provisioning Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Provisioning Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7F3DF518EDB0E6002771D2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0A7F3DF818EDB0E6002771D2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0A7F3DF918EDB0E6002771D2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -50,6 +64,12 @@
 		0A7F3E1B18EDB0E6002771D2 /* ProvisioningAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProvisioningAppTests-Info.plist"; sourceTree = "<group>"; };
 		0A7F3E1D18EDB0E6002771D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A7F3E1F18EDB0E6002771D2 /* ProvisioningAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvisioningAppTests.m; sourceTree = "<group>"; };
+		0A7F3E2918EDB48C002771D2 /* KEMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEMainWindowController.h; sourceTree = "<group>"; };
+		0A7F3E2A18EDB48C002771D2 /* KEMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KEMainWindowController.m; sourceTree = "<group>"; };
+		0A7F3E2B18EDB48C002771D2 /* KEMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KEMainWindowController.xib; sourceTree = "<group>"; };
+		0A9AD74818F29691009DB5E8 /* ToolBar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ToolBar.xcassets; path = ../ToolBar.xcassets; sourceTree = "<group>"; };
+		0A9AD75518F43302009DB5E8 /* KEIncludedDevicesDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEIncludedDevicesDelegate.h; sourceTree = "<group>"; };
+		0A9AD75618F43302009DB5E8 /* KEIncludedDevicesDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KEIncludedDevicesDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +96,9 @@
 		0A7F3DE918EDB0E5002771D2 = {
 			isa = PBXGroup;
 			children = (
+				0A20C39918F52FE6000718C4 /* KEUSBDevices.h */,
+				0A20C39A18F52FE6000718C4 /* KEUSBDevices.m */,
+				0A20C39818F52E9B000718C4 /* Provisioning Manager.entitlements */,
 				0A7F3DFB18EDB0E6002771D2 /* ProvisioningApp */,
 				0A7F3E1918EDB0E6002771D2 /* ProvisioningAppTests */,
 				0A7F3DF418EDB0E6002771D2 /* Frameworks */,
@@ -86,7 +109,7 @@
 		0A7F3DF318EDB0E6002771D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A7F3DF218EDB0E6002771D2 /* ProvisioningApp.app */,
+				0A7F3DF218EDB0E6002771D2 /* Provisioning Manager.app */,
 				0A7F3E1318EDB0E6002771D2 /* ProvisioningAppTests.xctest */,
 			);
 			name = Products;
@@ -115,11 +138,21 @@
 		0A7F3DFB18EDB0E6002771D2 /* ProvisioningApp */ = {
 			isa = PBXGroup;
 			children = (
+				0A7F3DFC18EDB0E6002771D2 /* Supporting Files */,
+				0A9AD74818F29691009DB5E8 /* ToolBar.xcassets */,
+				0A7F3E0D18EDB0E6002771D2 /* Images.xcassets */,
+				0A7F3E0A18EDB0E6002771D2 /* MainMenu.xib */,
+				0A7F3E2B18EDB48C002771D2 /* KEMainWindowController.xib */,
 				0A7F3E0718EDB0E6002771D2 /* KEAppDelegate.h */,
 				0A7F3E0818EDB0E6002771D2 /* KEAppDelegate.m */,
-				0A7F3E0A18EDB0E6002771D2 /* MainMenu.xib */,
-				0A7F3E0D18EDB0E6002771D2 /* Images.xcassets */,
-				0A7F3DFC18EDB0E6002771D2 /* Supporting Files */,
+				0A7F3E2918EDB48C002771D2 /* KEMainWindowController.h */,
+				0A7F3E2A18EDB48C002771D2 /* KEMainWindowController.m */,
+				0A52600618EEB0010083F2FB /* KEProvProfile.h */,
+				0A52600718EEB0010083F2FB /* KEProvProfile.m */,
+				0A52600B18EF02AA0083F2FB /* KEHelpers.h */,
+				0A52600C18EF02AA0083F2FB /* KEHelpers.m */,
+				0A9AD75518F43302009DB5E8 /* KEIncludedDevicesDelegate.h */,
+				0A9AD75618F43302009DB5E8 /* KEIncludedDevicesDelegate.m */,
 			);
 			path = ProvisioningApp;
 			sourceTree = "<group>";
@@ -157,9 +190,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A7F3DF118EDB0E6002771D2 /* ProvisioningApp */ = {
+		0A7F3DF118EDB0E6002771D2 /* Provisioning Manager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A7F3E2318EDB0E6002771D2 /* Build configuration list for PBXNativeTarget "ProvisioningApp" */;
+			buildConfigurationList = 0A7F3E2318EDB0E6002771D2 /* Build configuration list for PBXNativeTarget "Provisioning Manager" */;
 			buildPhases = (
 				0A7F3DEE18EDB0E6002771D2 /* Sources */,
 				0A7F3DEF18EDB0E6002771D2 /* Frameworks */,
@@ -169,9 +202,9 @@
 			);
 			dependencies = (
 			);
-			name = ProvisioningApp;
+			name = "Provisioning Manager";
 			productName = ProvisioningApp;
-			productReference = 0A7F3DF218EDB0E6002771D2 /* ProvisioningApp.app */;
+			productReference = 0A7F3DF218EDB0E6002771D2 /* Provisioning Manager.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0A7F3E1218EDB0E6002771D2 /* ProvisioningAppTests */ = {
@@ -202,6 +235,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Kemal Enver";
 				TargetAttributes = {
+					0A7F3DF118EDB0E6002771D2 = {
+						DevelopmentTeam = PDT9S226TJ;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
 					0A7F3E1218EDB0E6002771D2 = {
 						TestTargetID = 0A7F3DF118EDB0E6002771D2;
 					};
@@ -220,7 +261,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A7F3DF118EDB0E6002771D2 /* ProvisioningApp */,
+				0A7F3DF118EDB0E6002771D2 /* Provisioning Manager */,
 				0A7F3E1218EDB0E6002771D2 /* ProvisioningAppTests */,
 			);
 		};
@@ -234,7 +275,9 @@
 				0A7F3E0018EDB0E6002771D2 /* InfoPlist.strings in Resources */,
 				0A7F3E0E18EDB0E6002771D2 /* Images.xcassets in Resources */,
 				0A7F3E0618EDB0E6002771D2 /* Credits.rtf in Resources */,
+				0A9AD74918F29691009DB5E8 /* ToolBar.xcassets in Resources */,
 				0A7F3E0C18EDB0E6002771D2 /* MainMenu.xib in Resources */,
+				0A7F3E2D18EDB48C002771D2 /* KEMainWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A7F3E2C18EDB48C002771D2 /* KEMainWindowController.m in Sources */,
 				0A7F3E0918EDB0E6002771D2 /* KEAppDelegate.m in Sources */,
+				0A9AD75718F43302009DB5E8 /* KEIncludedDevicesDelegate.m in Sources */,
+				0A52600D18EF02AA0083F2FB /* KEHelpers.m in Sources */,
+				0A20C39B18F52FE6000718C4 /* KEUSBDevices.m in Sources */,
+				0A52600818EEB0010083F2FB /* KEProvProfile.m in Sources */,
 				0A7F3E0218EDB0E6002771D2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +319,7 @@
 /* Begin PBXTargetDependency section */
 		0A7F3E1818EDB0E6002771D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A7F3DF118EDB0E6002771D2 /* ProvisioningApp */;
+			target = 0A7F3DF118EDB0E6002771D2 /* Provisioning Manager */;
 			targetProxy = 0A7F3E1718EDB0E6002771D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -386,10 +434,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProvisioningApp/ProvisioningApp-Prefix.pch";
 				INFOPLIST_FILE = "ProvisioningApp/ProvisioningApp-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -399,10 +449,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProvisioningApp/ProvisioningApp-Prefix.pch";
 				INFOPLIST_FILE = "ProvisioningApp/ProvisioningApp-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,13 +512,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A7F3E2318EDB0E6002771D2 /* Build configuration list for PBXNativeTarget "ProvisioningApp" */ = {
+		0A7F3E2318EDB0E6002771D2 /* Build configuration list for PBXNativeTarget "Provisioning Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A7F3E2418EDB0E6002771D2 /* Debug */,
 				0A7F3E2518EDB0E6002771D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A7F3E2618EDB0E6002771D2 /* Build configuration list for PBXNativeTarget "ProvisioningAppTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +528,7 @@
 				0A7F3E2818EDB0E6002771D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0A7F3DF118EDB0E6002771D2"
-               BuildableName = "ProvisioningApp.app"
-               BlueprintName = "ProvisioningApp"
+               BuildableName = "Provisioning Manager.app"
+               BlueprintName = "Provisioning Manager"
                ReferencedContainer = "container:ProvisioningApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A7F3DF118EDB0E6002771D2"
-            BuildableName = "ProvisioningApp.app"
-            BlueprintName = "ProvisioningApp"
+            BuildableName = "Provisioning Manager.app"
+            BlueprintName = "Provisioning Manager"
             ReferencedContainer = "container:ProvisioningApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A7F3DF118EDB0E6002771D2"
-            BuildableName = "ProvisioningApp.app"
-            BlueprintName = "ProvisioningApp"
+            BuildableName = "Provisioning Manager.app"
+            BlueprintName = "Provisioning Manager"
             ReferencedContainer = "container:ProvisioningApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -80,8 +80,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A7F3DF118EDB0E6002771D2"
-            BuildableName = "ProvisioningApp.app"
-            BlueprintName = "ProvisioningApp"
+            BuildableName = "Provisioning Manager.app"
+            BlueprintName = "Provisioning Manager"
             ReferencedContainer = "container:ProvisioningApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
