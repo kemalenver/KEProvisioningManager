@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A20C39B18F52FE6000718C4 /* KEUSBDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A20C39A18F52FE6000718C4 /* KEUSBDevices.m */; };
 		0A52600818EEB0010083F2FB /* KEProvProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52600718EEB0010083F2FB /* KEProvProfile.m */; };
 		0A52600D18EF02AA0083F2FB /* KEHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A52600C18EF02AA0083F2FB /* KEHelpers.m */; };
 		0A7F3DF618EDB0E6002771D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7F3DF518EDB0E6002771D2 /* Cocoa.framework */; };
@@ -300,7 +299,6 @@
 				0A7F3E0918EDB0E6002771D2 /* KEAppDelegate.m in Sources */,
 				0A9AD75718F43302009DB5E8 /* KEIncludedDevicesDelegate.m in Sources */,
 				0A52600D18EF02AA0083F2FB /* KEHelpers.m in Sources */,
-				0A20C39B18F52FE6000718C4 /* KEUSBDevices.m in Sources */,
 				0A52600818EEB0010083F2FB /* KEProvProfile.m in Sources */,
 				0A7F3E0218EDB0E6002771D2 /* main.m in Sources */,
 			);

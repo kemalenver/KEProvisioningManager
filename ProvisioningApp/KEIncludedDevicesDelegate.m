@@ -20,7 +20,7 @@
         
         self.devices = nil;
         
-        list_devices();
+        //list_devices();
     }
     
     return self;
