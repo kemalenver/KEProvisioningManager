@@ -17,14 +17,10 @@
 
 @implementation KEUSBDevices
 
-#define kMyVendorID 1452
+#define kAppleVendorID 1452
 
 
 int list_devices(void){
-    
-    
-    
-    
     
     
     CFMutableDictionaryRef matchingDict;

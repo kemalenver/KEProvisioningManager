@@ -8,7 +8,9 @@
 
 #import "KEProvProfile.h"
 
+
 @implementation KEProvProfile
+
 
 - (BOOL) updateWithURL: (NSURL *) profileURL {
     
@@ -48,6 +50,8 @@
 
 + (NSDictionary *) provisioningProfileAtPath: (NSURL *) pathURL {
     
+    // Also see security cms -D -i ...
+    
     CMSDecoderRef decoder = NULL;
     CFDataRef dataRef = NULL;
     NSString *plistString = nil;
@@ -60,7 +64,7 @@
         CMSDecoderUpdateMessage(decoder, fileData.bytes, fileData.length);
         CMSDecoderFinalizeMessage(decoder);
         CMSDecoderCopyContent(decoder, &dataRef);
-        plistString = [[NSString alloc] initWithData:(__bridge NSData *)dataRef encoding:NSUTF8StringEncoding];
+        plistString = [[NSString alloc] initWithData:(__bridge NSData *)dataRef encoding: NSUTF8StringEncoding];
         NSData *plistData = [plistString dataUsingEncoding:NSUTF8StringEncoding];
         plist = [NSPropertyListSerialization propertyListFromData: plistData
                                                  mutabilityOption: NSPropertyListImmutable

@@ -10,6 +10,7 @@
 
 @implementation KEHelpers
 
+
 + (NSColor *) colorWithHexValue: (NSInteger) rgbValue {
     
     return [NSColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0
@@ -18,5 +19,6 @@
                            alpha:1.0];
     
 }
+
 
 @end

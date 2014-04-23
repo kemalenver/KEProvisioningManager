@@ -12,6 +12,7 @@
 
 @implementation KEIncludedDevicesDelegate
 
+
 - (id) init {
     
     self = [super init];
@@ -25,6 +26,7 @@
     
     return self;
 }
+
 
 - (NSInteger) numberOfRowsInTableView:(NSTableView *)tableView {
     

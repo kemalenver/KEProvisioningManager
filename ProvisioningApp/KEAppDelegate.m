@@ -11,19 +11,19 @@
 
 @implementation KEAppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Insert code here to initialize your application
-    
+
+- (void) applicationDidFinishLaunching: (NSNotification *) aNotification {
+
     self.mainWindowController = [[KEMainWindowController alloc] initWithWindowNibName: @"KEMainWindowController"];
     
     [self.mainWindowController showWindow: self];
 }
 
 
-- (BOOL) applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
+- (BOOL) applicationShouldTerminateAfterLastWindowClosed: (NSApplication *) sender {
     
     return YES;
 }
+
 
 @end

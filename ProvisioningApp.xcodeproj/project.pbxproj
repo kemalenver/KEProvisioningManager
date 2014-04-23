@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0A20C39818F52E9B000718C4 /* Provisioning Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Provisioning Manager.entitlements"; sourceTree = "<group>"; };
-		0A20C39918F52FE6000718C4 /* KEUSBDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEUSBDevices.h; sourceTree = "<group>"; };
-		0A20C39A18F52FE6000718C4 /* KEUSBDevices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KEUSBDevices.m; sourceTree = "<group>"; };
+		0A4C9D3119079F4B009D324F /* KEUSBDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEUSBDevices.h; sourceTree = "<group>"; };
+		0A4C9D3219079F4B009D324F /* KEUSBDevices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KEUSBDevices.m; sourceTree = "<group>"; };
 		0A52600618EEB0010083F2FB /* KEProvProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEProvProfile.h; sourceTree = "<group>"; };
 		0A52600718EEB0010083F2FB /* KEProvProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KEProvProfile.m; sourceTree = "<group>"; };
 		0A52600B18EF02AA0083F2FB /* KEHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEHelpers.h; sourceTree = "<group>"; };
@@ -95,8 +95,6 @@
 		0A7F3DE918EDB0E5002771D2 = {
 			isa = PBXGroup;
 			children = (
-				0A20C39918F52FE6000718C4 /* KEUSBDevices.h */,
-				0A20C39A18F52FE6000718C4 /* KEUSBDevices.m */,
 				0A20C39818F52E9B000718C4 /* Provisioning Manager.entitlements */,
 				0A7F3DFB18EDB0E6002771D2 /* ProvisioningApp */,
 				0A7F3E1918EDB0E6002771D2 /* ProvisioningAppTests */,
@@ -152,6 +150,8 @@
 				0A52600C18EF02AA0083F2FB /* KEHelpers.m */,
 				0A9AD75518F43302009DB5E8 /* KEIncludedDevicesDelegate.h */,
 				0A9AD75618F43302009DB5E8 /* KEIncludedDevicesDelegate.m */,
+				0A4C9D3119079F4B009D324F /* KEUSBDevices.h */,
+				0A4C9D3219079F4B009D324F /* KEUSBDevices.m */,
 			);
 			path = ProvisioningApp;
 			sourceTree = "<group>";

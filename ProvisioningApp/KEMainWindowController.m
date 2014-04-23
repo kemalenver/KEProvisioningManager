@@ -42,8 +42,13 @@
     
     self.tableView.sortDescriptors = @[
                                        
-                                       [NSSortDescriptor sortDescriptorWithKey: @"status" ascending: YES selector: @selector(compare:)],
-                                       [NSSortDescriptor sortDescriptorWithKey: @"expDate" ascending: YES selector: @selector(compare:)]
+                                       [NSSortDescriptor sortDescriptorWithKey: @"status"
+                                                                     ascending: YES
+                                                                      selector: @selector(compare:)],
+                                       
+                                       [NSSortDescriptor sortDescriptorWithKey: @"expDate"
+                                                                     ascending: YES
+                                                                      selector: @selector(compare:)]
                                        ];
     
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
@@ -60,7 +65,7 @@
 
 - (void) reloadProfiles {
     
-    NSArray *docsPath = [[NSFileManager defaultManager] URLsForDirectory: NSLibraryDirectory inDomains:NSUserDomainMask];
+    NSArray *docsPath = [[NSFileManager defaultManager] URLsForDirectory: NSLibraryDirectory inDomains: NSUserDomainMask];
     
     NSURL *libraryPath = docsPath[0];
     
@@ -107,7 +112,8 @@
         NSLog(@"Deleting %@", profile.name);
         
         NSError *error = nil;
-        //[[NSFileManager defaultManager] removeItemAtURL: profile.path error: &error];
+        
+        [[NSFileManager defaultManager] removeItemAtURL: profile.path error: &error];
         
         if(error) {
             
@@ -123,16 +129,13 @@
 }
 
 
-// Also see security cms -D -i ...
-
-
 - (NSInteger) numberOfRowsInTableView:(NSTableView *)tableView {
     
     return self.profileList.count;
 }
 
 
-- (id) tableView: (NSTableView *)tableView objectValueForTableColumn: (NSTableColumn *)tableColumn row:(NSInteger)row {
+- (id) tableView: (NSTableView *) tableView objectValueForTableColumn: (NSTableColumn *) tableColumn row: (NSInteger) row {
     
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     dateFormatter.dateStyle = NSDateFormatterLongStyle;
